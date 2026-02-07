@@ -1,0 +1,126 @@
+21:17:49 (0x7ff84b934640): ~ Chrome renderer v2023.5.0.13945~
+21:17:49 (0x7ff84b934640): IsSingleProcess: 0
+21:17:49 (0x7ff84b934640): Loading Cef library from /Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Chromium Embedded Framework
+21:17:49 (0x7ff84b934640): Creating Cef proxy controller
+21:17:49 (0x7ff84b934640): Creating Cef interface
+21:17:49 (0x7ff84b934640): Created new lifespan events
+21:17:49 (0x7ff84b934640): Created new browser process handler
+21:17:49 (0x7ff84b934640): Created new load handler
+21:17:49 (0x7ff84b934640): Created new render handler
+21:17:49 (0x7ff84b934640): Created new render process handler
+21:17:49 (0x7ff84b934640): Created new print handler
+21:17:49 (0x7ff84b934640): Created new dev tools handler
+21:17:49 (0x7ff84b934640): Created new dev tools registration factory
+21:17:49 (0x7ff84b934640): Created new lifespan handler
+21:17:49 (0x7ff84b934640): Assigning Cef proxy controller events...
+21:17:49 (0x7ff84b934640): Assigning Cef proxy controller stream provider...
+21:17:49 (0x7ff84b934640): Initializing Cef proxy controller
+21:17:49 (0x7ff84b934640): Using subprocess path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess'
+21:17:49 (0x7ff84b934640): Using framework path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+21:17:49 (0x7ff84b934640): Using resources path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+21:17:49 (0x7ff84b934640): Process os_name: 'macos'
+21:17:49 (0x7ff84b934640): gpu_mode: '0'
+21:17:49 (0x7ff84b934640): Launching Main process ' --browser-subprocess-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-features=BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+21:17:49 (0x7ff84b934640): Process os_name: 'macos'
+21:17:49 (0x7ff84b934640): gpu_mode: '0'
+21:17:49 (0x7ff84b934640): Launching child process '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --no-sandbox --headless --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/private/var/folders/g6/f1ws3jd534q7_q2wmxbm7b9c0000gp/T --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+21:17:49 (0x7ff84b934640): Cef context initialized
+21:17:49 (0x7ff84b934640): Registering custom scheme for rendering raw html
+21:17:49 (0x7ff84b934640): Successfully registered custom scheme
+21:17:49 (0x7ff84b934640): Cef engine initialization complete
+21:17:49 (0x7ff84b934640): Cef initialization succeeded
+21:17:51 (0x700002c2a000): Generating pdf from html
+21:17:51 (0x700002c2a000): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+21:17:51 (0x700002c2a000): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200, Max Footer Height : 200
+
+21:17:51 (0x700002c2a000): Created new job group 0 for new document
+21:17:51 (0x700002c2a000): Created job group 0
+21:17:51 (0x700002c2a000): Queuing job 0
+21:17:51 (0x700002c2a000): Checking for browser availability (0/30)
+21:17:51 (0x700002c2a000): Creating new browser after waiting 0 seconds
+21:18:52 (0x700002c2a000): !!! Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+21:18:52 (0x700002c2a000): Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+21:18:52 (0x700002c2a000): Error (source -1): 'Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0''
+21:23:16 (0x7ff84b934640): ~ Chrome renderer v2023.5.0.13945~
+21:23:16 (0x7ff84b934640): IsSingleProcess: 0
+21:23:16 (0x7ff84b934640): Loading Cef library from /Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Chromium Embedded Framework
+21:23:16 (0x7ff84b934640): Creating Cef proxy controller
+21:23:16 (0x7ff84b934640): Creating Cef interface
+21:23:16 (0x7ff84b934640): Created new lifespan events
+21:23:16 (0x7ff84b934640): Created new browser process handler
+21:23:16 (0x7ff84b934640): Created new load handler
+21:23:16 (0x7ff84b934640): Created new render handler
+21:23:16 (0x7ff84b934640): Created new render process handler
+21:23:16 (0x7ff84b934640): Created new print handler
+21:23:16 (0x7ff84b934640): Created new dev tools handler
+21:23:16 (0x7ff84b934640): Created new dev tools registration factory
+21:23:16 (0x7ff84b934640): Created new lifespan handler
+21:23:16 (0x7ff84b934640): Assigning Cef proxy controller events...
+21:23:16 (0x7ff84b934640): Assigning Cef proxy controller stream provider...
+21:23:16 (0x7ff84b934640): Initializing Cef proxy controller
+21:23:16 (0x7ff84b934640): Using subprocess path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess'
+21:23:16 (0x7ff84b934640): Using framework path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+21:23:16 (0x7ff84b934640): Using resources path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+21:23:16 (0x7ff84b934640): Process os_name: 'macos'
+21:23:16 (0x7ff84b934640): gpu_mode: '0'
+21:23:16 (0x7ff84b934640): Launching Main process ' --browser-subprocess-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-features=BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+21:23:17 (0x7ff84b934640): Process os_name: 'macos'
+21:23:17 (0x7ff84b934640): gpu_mode: '0'
+21:23:17 (0x7ff84b934640): Launching child process '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --no-sandbox --headless --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/private/var/folders/g6/f1ws3jd534q7_q2wmxbm7b9c0000gp/T --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+21:23:17 (0x7ff84b934640): Cef context initialized
+21:23:17 (0x7ff84b934640): Registering custom scheme for rendering raw html
+21:23:17 (0x7ff84b934640): Successfully registered custom scheme
+21:23:17 (0x7ff84b934640): Cef engine initialization complete
+21:23:17 (0x7ff84b934640): Cef initialization succeeded
+21:23:19 (0x70000cde1000): Generating pdf from html
+21:23:19 (0x70000cde1000): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+21:23:19 (0x70000cde1000): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200, Max Footer Height : 200
+
+21:23:19 (0x70000cde1000): Created new job group 0 for new document
+21:23:19 (0x70000cde1000): Created job group 0
+21:23:19 (0x70000cde1000): Queuing job 0
+21:23:19 (0x70000cde1000): Checking for browser availability (0/30)
+21:23:19 (0x70000cde1000): Creating new browser after waiting 0 seconds
+21:24:20 (0x70000cde1000): !!! Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+21:24:20 (0x70000cde1000): Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+21:24:20 (0x70000cde1000): Error (source -1): 'Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0''

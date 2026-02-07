@@ -1,0 +1,190 @@
+[2023-08-13 21:17:47] ---------- MacOS v13.4.1 (/Users/deepak/eclipse-workspace/hgfj/ironpdfengine.log) ----------
+[2023-08-13 21:17:47] Using deployment directory '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/'
+[2023-08-13 21:17:47] Creating deployment candidates using root path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/' (download: False)
+[2023-08-13 21:17:47] Creating folder deployments for osx-x64
+[2023-08-13 21:17:47] Creating embedded deployments for osx-x64
+[2023-08-13 21:17:47] Attempting deployment for 'IronPdf' 2023.5.0.13945 using '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/'
+[2023-08-13 21:17:47] Failed to locate assembly(s) for deployment '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/' at path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/'
+[2023-08-13 21:17:47] IronSoftware.Exceptions.IronSoftwareAssemblyMissingException: Failed to locate 'IronInterop' at '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/'
+   at IronSoftware.Deployment.SmartDeploymentBase.CheckAssemblies(String path)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2023-08-13 21:17:47] Attempting deployment for 'IronPdf' 2023.5.0.13945 using '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64'
+[2023-08-13 21:17:47] Failed to locate assembly(s) for deployment '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64' at path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64'
+[2023-08-13 21:17:47] IronSoftware.Exceptions.IronSoftwareAssemblyMissingException: Failed to locate 'IronInterop' at '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64'
+   at IronSoftware.Deployment.SmartDeploymentBase.CheckAssemblies(String path)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2023-08-13 21:17:47] Attempting deployment for 'IronPdf' 2023.5.0.13945 using '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64'
+[2023-08-13 21:17:47] Failed to locate assembly(s) for deployment '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64' at path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64'
+[2023-08-13 21:17:47] IronSoftware.Exceptions.IronSoftwareAssemblyMissingException: Failed to locate 'IronInterop' at '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64'
+   at IronSoftware.Deployment.SmartDeploymentBase.CheckAssemblies(String path)
+   at IronSoftware.Deployment.SmartDeploymentBase.Deploy(Boolean download)
+[2023-08-13 21:17:47] Attempting deployment for 'IronPdf' 2023.5.0.13945 using 'Embedded resource (IronPdf, Version=2023.5.0.1, Culture=neutral, PublicKeyToken=94e1c31412563c75: IronPdf) to path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native''
+[2023-08-13 21:17:47] Successfully found resource with name 'IronPdf.osx-x64.zip' in assembly 'IronPdf, Version=2023.5.0.1, Culture=neutral, PublicKeyToken=94e1c31412563c75
+[2023-08-13 21:17:48] Successfully deployed embedded resource 'IronPdf' to '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:17:48] Successfully located 'IronInterop' at '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:17:48] Determining deployment commands for platform 'MacOS' v13.4.1
+[2023-08-13 21:17:48] Using deployment instructions for 'default' v
+[2023-08-13 21:17:48] Executing command 'chmod u+x IronCefSubprocess' in '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:17:48] 
+[2023-08-13 21:17:48] Executing command 'xattr -r -d com.apple.quarantine IronCefSubprocess' in '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:17:48] 
+[2023-08-13 21:17:48] Executing command 'xattr -r -d com.apple.quarantine "Chromium Embedded Framework.framework"' in '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:17:48] 
+[2023-08-13 21:17:49] Attempting to load Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib'
+[2023-08-13 21:17:49] Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib' load result 140707544591872
+[2023-08-13 21:17:49] Attempting to load Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib'
+[2023-08-13 21:17:49] Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib' load result 140707544591872
+[2023-08-13 21:17:49] Successfully loaded native library from '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib'
+[2023-08-13 21:17:49] Successfully loaded 'IronInterop' version '2023.5.0.13945' from '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:17:49] Successfully deployed 'IronPdf' using 'Embedded resource (IronPdf, Version=2023.5.0.1, Culture=neutral, PublicKeyToken=94e1c31412563c75: IronPdf) to path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native''
+[2023-08-13 21:17:49] Initializing Chrome renderer for OS Name: MacOS, Identifier: osx, Version: 13.4.1, VersionName: , Domain: IronPdfEngine, Thread: , Path: /Users/deepak/eclipse-workspace/hgfj
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Detected operating system macos
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): ~ Chrome renderer v2023.5.0.13945~
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): IsSingleProcess: 0
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Loading Cef library from /Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Chromium Embedded Framework
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Creating Cef proxy controller
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Creating Cef interface
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new lifespan events
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new browser process handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new load handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new render handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new render process handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new print handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new dev tools handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new dev tools registration factory
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Created new lifespan handler
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Assigning Cef proxy controller events...
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Assigning Cef proxy controller stream provider...
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Initializing Cef proxy controller
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Using subprocess path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Using framework path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Using resources path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Process os_name: 'macos'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): gpu_mode: '0'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Launching Main process ' --browser-subprocess-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-features=BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Process os_name: 'macos'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): gpu_mode: '0'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Launching child process '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --no-sandbox --headless --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/private/var/folders/g6/f1ws3jd534q7_q2wmxbm7b9c0000gp/T --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Cef context initialized
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Registering custom scheme for rendering raw html
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Successfully registered custom scheme
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Cef engine initialization complete
+[2023-08-13 21:17:49] 21:17:49 (0x7ff84b934640): Cef initialization succeeded
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): Generating pdf from html
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200, Max Footer Height : 200
+
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): Created new job group 0 for new document
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): Created job group 0
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): Queuing job 0
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): Checking for browser availability (0/30)
+[2023-08-13 21:17:51] 21:17:51 (0x700002c2a000): Creating new browser after waiting 0 seconds
+[2023-08-13 21:18:52] 21:18:52 (0x700002c2a000): !!! Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+[2023-08-13 21:18:52] 21:18:52 (0x700002c2a000): Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+[2023-08-13 21:18:52] 21:18:52 (0x700002c2a000): Error (source -1): 'Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0''
+[2023-08-13 21:23:15] ---------- MacOS v13.4.1 (/Users/deepak/eclipse-workspace/hgfj/ironpdfengine.log) ----------
+[2023-08-13 21:23:15] Using deployment directory '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/'
+[2023-08-13 21:23:15] Creating deployment candidates using root path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/' (download: False)
+[2023-08-13 21:23:15] Creating folder deployments for osx-x64
+[2023-08-13 21:23:15] Creating embedded deployments for osx-x64
+[2023-08-13 21:23:16] Successfully located 'IronInterop' at '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:23:16] Determining deployment commands for platform 'MacOS' v13.4.1
+[2023-08-13 21:23:16] Using deployment instructions for 'default' v
+[2023-08-13 21:23:16] Executing command 'chmod u+x IronCefSubprocess' in '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:23:16] 
+[2023-08-13 21:23:16] Executing command 'xattr -r -d com.apple.quarantine IronCefSubprocess' in '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:23:16] 
+[2023-08-13 21:23:16] Executing command 'xattr -r -d com.apple.quarantine "Chromium Embedded Framework.framework"' in '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:23:16] 
+[2023-08-13 21:23:16] Attempting to load Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib'
+[2023-08-13 21:23:16] Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib' load result 140707634948304
+[2023-08-13 21:23:16] Attempting to load Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib'
+[2023-08-13 21:23:16] Unix library '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib' load result 140707634948304
+[2023-08-13 21:23:16] Successfully loaded native library from '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronInterop.dylib'
+[2023-08-13 21:23:16] Successfully loaded 'IronInterop' version '2023.5.0.13945' from '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:23:16] Successfully deployed 'IronPdf' using '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native'
+[2023-08-13 21:23:16] Initializing Chrome renderer for OS Name: MacOS, Identifier: osx, Version: 13.4.1, VersionName: , Domain: IronPdfEngine, Thread: , Path: /Users/deepak/eclipse-workspace/hgfj
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Detected operating system macos
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): ~ Chrome renderer v2023.5.0.13945~
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): IsSingleProcess: 0
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Loading Cef library from /Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Chromium Embedded Framework
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Creating Cef proxy controller
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Creating Cef interface
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new lifespan events
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new browser process handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new load handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new render handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new render process handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new print handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new dev tools handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new dev tools registration factory
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Created new lifespan handler
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Assigning Cef proxy controller events...
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Assigning Cef proxy controller stream provider...
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Initializing Cef proxy controller
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Using subprocess path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess'
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Using framework path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework'
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Using resources path '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources'
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Process os_name: 'macos'
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): gpu_mode: '0'
+[2023-08-13 21:23:16] 21:23:16 (0x7ff84b934640): Launching Main process ' --browser-subprocess-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --disable-features=BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Process os_name: 'macos'
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): gpu_mode: '0'
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Launching child process '/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/IronCefSubprocess --type=gpu-process --no-sandbox --headless --framework-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework --log-severity=disable --resources-dir-path=/Users/deepak/eclipse-workspace/hgfj/IronPdfEngine.2023.5.1.MacOS.x64/runtimes/osx-x64/native/Chromium Embedded Framework.framework/Resources --lang=en-US --user-data-dir=/private/var/folders/g6/f1ws3jd534q7_q2wmxbm7b9c0000gp/T --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests --use-mock-keychain'
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Cef context initialized
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Registering custom scheme for rendering raw html
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Successfully registered custom scheme
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Cef engine initialization complete
+[2023-08-13 21:23:17] 21:23:17 (0x7ff84b934640): Cef initialization succeeded
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): Generating pdf from html
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200, Max Footer Height : 200
+
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): Created new job group 0 for new document
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): Created job group 0
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): Queuing job 0
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): Checking for browser availability (0/30)
+[2023-08-13 21:23:19] 21:23:19 (0x70000cde1000): Creating new browser after waiting 0 seconds
+[2023-08-13 21:24:20] 21:24:20 (0x70000cde1000): !!! Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+[2023-08-13 21:24:20] 21:24:20 (0x70000cde1000): Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0'
+[2023-08-13 21:24:20] 21:24:20 (0x70000cde1000): Error (source -1): 'Error while rendering pdf from html for job group 0: 'Timeout after 60s while rendering pdf from html for job group 0''
