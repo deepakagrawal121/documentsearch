@@ -104,7 +104,8 @@ curl -X POST http://localhost:8080/documents \
 ### Search Documents
 
 ```bash
-curl "http://localhost:8080/search?q=scale&tenant=tenant1"
+curl --location 'http://localhost:8080/search?q=scale&tenant=tenant1' \
+--header 'X-Tenant-Id: tenant1'
 ```
 
 ---
